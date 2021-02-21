@@ -5,5 +5,5 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Menu from './Menu';
 
-ReactDOM.render(<Menu />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
