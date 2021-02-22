@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Menu from './Menu';
+import Sub from './Submenu';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(<Sub />, document.getElementById('root'));
 registerServiceWorker();
