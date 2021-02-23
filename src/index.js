@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import Menu from './Menu';
+import Login from './components/Login';
+import registerServiceWorker from './components/registerServiceWorker';
+import Menu from './components/Menu';
+import Home from './components/Home';
 
-ReactDOM.render(<Menu />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
 registerServiceWorker();
