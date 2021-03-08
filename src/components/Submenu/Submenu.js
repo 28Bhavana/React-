@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Submenu.css';
+import Person from '../Person/Person';
 
 class Sub extends React.Component {
 
@@ -23,13 +24,11 @@ render(){
                 <div> <h1 className="h1">DOMINO'S NATIONAL MENU</h1></div>
                 <div> <h3 className="h3">This is the Domino's national menu. To see prices, coupons and exactly what items are available to you, select your local store.</h3></div>
                
-
-                
+              <Person />
                 </div>
-
+      
             );
         }
 
 }
-
 export default Sub;
